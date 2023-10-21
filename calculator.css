@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins, sans-serif';
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: lightgrey;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    background-color: transparent;
+    width:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayEl{
+    height: 50px;
+    width: 300px;
+    background-color: #ffffff;
+    border-width: 0;
+    margin:0;
+    padding:0;
+    outline: none;
+    cursor: pointer;
+    text-align: right;
+    font-size: 30px;
+    
+}
+
+.acEl{
+    height: 50px;
+    width: 80px;
+    border-width: 0;
+    background-color: lightseagreen;
+    color: #ffffff;
+    margin:0;
+    padding:0;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formContainer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    height: 50px;
+    width: 100px;
+    border-width: 0;
+    background-color: black;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.operator{
+    height: 50px;
+    width:80px;
+    border-width: 0;
+    background-color: gray;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.numberContainer{
+    height: 50px;
+}
